@@ -9,7 +9,7 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            
+
             <h2>User Registration Form</h2>
 
             <label for="name">Name:</label>
@@ -39,7 +39,7 @@
                 <asp:ListItem Text="UK" Value="UK"></asp:ListItem>
                 <asp:ListItem Text="India" Value="India"></asp:ListItem>
                 <asp:ListItem Text="Australia" Value="Australia"></asp:ListItem>
-             </asp:DropDownList>
+            </asp:DropDownList>
             <br />
             <br />
 
@@ -54,7 +54,7 @@
             <br />
             <br />
 
-            <asp:Button ID="Submit" Text="Submit" runat="server"/>
+            <asp:Button ID="Submit" Text="Submit" runat="server" />
 
         </div>
     </form>
